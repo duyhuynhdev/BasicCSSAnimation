@@ -1,0 +1,33 @@
+/* HOVER */
+h1:hover {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  background-color: grey;
+  color:white;
+}
+
+/* FOCUS */
+
+input:focus {
+  background-color: yellow;
+}
+
+button:focus {
+  border-radius: 20px;
+  background-color: green;
+}
+
+/* ACTIVE */
+/* click and hold press to see an action */
+button:active {
+  background-color: orange;
+  font-size: 30px;
+}
+h1:active, p:active {
+  color: purple;
+}
+
+
